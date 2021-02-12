@@ -1,0 +1,41 @@
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+h5 {
+  background-color: #393e46;
+  color: white;
+  text-align: center;
+  padding: 2px 0;
+}
+span {
+  text-align: right;
+  color: #393e46;
+  font-size: 0.8rem;
+}
+
+.card-title {
+  font-size: 1.5rem;
+}
+.card-text {
+  font-size: 0.75rem;
+}
+.card {
+  text-align: center;
+  margin-bottom: 6%;
+}
+
+@media (max-width: 768px) {
+  .card {
+    height: auto;
+    margin-bottom: 2%;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  span {
+    color: #eeeeee;
+  }
+  .card {
+    background-color: #393e46;
+  }
+}

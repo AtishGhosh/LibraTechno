@@ -1,0 +1,128 @@
+body {
+  background-image: url("/assets/bg-h.jpg");
+  background-color: #1c92e4;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, p {
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-weight: bold;
+  vertical-align: middle;
+  font-size: 4rem;
+}
+
+a {
+  margin: 5px;
+  width: 120px;
+}
+
+nav {
+  background-color: transparent;
+  backdrop-filter: none;
+}
+
+h2 {
+  display: none;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: white;
+}
+
+.home-content {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.home-buttonbar {
+  text-align: center;
+}
+
+.navbar-brand-img {
+  background-image: url('../assets/logo-white.png');
+}
+
+.home-footer {
+  color: white;
+  font-size: 0.75rem;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -150%);
+}
+
+.navItem {
+  color: #ffffff;
+  margin: 5px 0;
+}
+
+.navItem:hover {
+  color: #222831;
+}
+
+@media (min-width: 1078px) {
+  .button-break {
+    display: none;
+  }
+}
+
+@media (max-aspect-ratio: 1/1) {
+  body {
+    background-image: url('/assets/bg-v.jpg');
+  }
+}
+
+@media (min-height: 600px) {
+  .tall {
+    display: none;
+  }
+}
+
+@media (max-height: 600px) {
+  h1 {
+    display: none;
+  }
+  h2 {
+    display: block;
+  }
+  .wide {
+    display: none;
+  }
+  .home-content {
+    top: 55%;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-image: url('/assets/dark-bg-h.jpg');
+    background-color: black;
+  }
+  .navItem:hover {
+    color: #0d6efd;
+  }
+}
+
+@media (prefers-color-scheme: dark) and (max-aspect-ratio: 1/1) {
+  body {
+    background-image: url('/assets/dark-bg-v.jpg');
+    background-color: black;
+  }
+}
+
+@media (max-width: 767px) {
+  .home-content {
+    width: 90%;
+  }
+}

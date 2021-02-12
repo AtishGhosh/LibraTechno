@@ -1,0 +1,127 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #eeeeee;
+}
+
+nav {
+  background: rgba(238, 238, 238, 0.90);
+  backdrop-filter: blur(4px);
+}
+
+:root {
+  color-scheme: light dark;
+  /* both supported */
+}
+
+.dropdown-toggle::after {
+  content: none;
+}
+
+.content {
+  margin: 60px 5% 0 5%;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navItem {
+  text-decoration: none;
+  color: #222831;
+  text-align: center;
+  margin: 5px 0 5px 20px;
+  display: inline-block;
+  font-size: 1rem;
+}
+
+.navItem:hover {
+  color: #0d6efd;
+}
+
+.navbar-brand:hover {
+  color: black;
+}
+
+.navBtnGroup {
+  margin-right: 5%;
+}
+
+.navbar-brand {
+  color: black;
+  font-weight: 600;
+}
+
+.navbar-brand-img {
+  background-image: url('../assets/logo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  height: 20px;
+  width: 32px;
+}
+
+.navbar-toggler {
+  border-color: black;
+  color: black;
+}
+
+.navbar-toggler:hover {
+  border-color: #0d6efd;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.social-bar {
+  text-align: right;
+  color: #393e46;
+  font-size: 0.8rem;
+  display: inline-block;
+  width: 50%;
+}
+
+.footer-text {
+  text-align: left;
+  color: #393e46;
+  font-size: 0.8rem;
+  display: inline-block;
+  width: 49%;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: white;
+    background: #222831;
+  }
+
+  nav {
+    background: rgba(34, 40, 49, 0.90);
+    backdrop-filter: blur(4px);
+  }
+
+  .navbar-brand {
+    color: white;
+  }
+
+  .navbar-brand:hover {
+    color: white;
+  }
+
+  .navItem {
+    color: #eeeeee;
+  }
+
+  .navbar-toggler {
+    border-color: white;
+    color: white;
+  }
+
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+
+  .footer-text, .social-bar {
+    color: #eeeeee;
+  }
+}

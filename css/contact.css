@@ -1,0 +1,47 @@
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h5, h4, h3 {
+  text-align: center;
+}
+
+.col-md {
+  padding: 0;
+}
+
+.gmaps-img {
+  background-image: url('../assets/gmaps.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.email-img {
+  background-image: url('../assets/email-tall.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.phone-img {
+  background-image: url('../assets/phone-tall.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.card-text {
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .left-half, .right-half {
+    display: block;
+    width: auto;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .card {
+    background-color: #393e46;
+  }
+}
