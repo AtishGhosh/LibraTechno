@@ -50,47 +50,34 @@
 
 
   <div class="tall">
-    <nav class="navbar navbar-expand-md navbar-dark navbar-default">
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark navbar-default">
       <div class="container-fluid">
         <a class="navbar-brand" href="/index" style="margin-left: 5%;">
           <div class="navbar-brand-img"></div>
           Libra Techno
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse navBtnGroup" id="navbarSupportedContent">
-          <ul class="navbar-nav mb-2 mb-md-0">
-            <li class="nav-item dropdown">
-              <a class="navItem dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a href="/general-services" class="dropdown-item"><strong>General</strong> Services</a></li>
-                <li><a href="/custom-services" class="dropdown-item"><strong>Custom</strong> Services</a></li>
-                <li><a href="/design-services" class="dropdown-item"><strong>Design</strong> Services</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a href="portfolio" class="navItem">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a href="about" class="navItem">About</a>
-            </li>
-            <li class="nav-item">
-              <a href="contact" class="navItem">Contact</a>
-            </li>
-          </ul>
-        </div>
       </div>
     </nav>
 
-    <div class="home-content">
-      <h1>Welcome</h1>
+    <div style="margin-top: 80px;">
       <h2>Welcome</h2>
-      <p>Libra Techno has a simple, yet profound strategy: to help firms develop an industry leading web presence. Our software solutions include website development, e-commerce services, multimedia systems, and much more. We offer reliability and
+      <p style="width: 80%; margin-left: 10%;">Libra Techno has a simple, yet profound strategy: to help firms develop an industry leading web presence. Our software solutions include website development, e-commerce services, multimedia systems, and much more. We offer reliability and
         quality in one complete economical package.</p>
+      <div class="home-buttonbar dropdown">
+        <a class="btn btn-light dropdown-toggle" href="services" role="button" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li><a href="/general-services" class="dropdown-item"><strong>General</strong> Services</a></li>
+          <li><a href="/custom-services" class="dropdown-item"><strong>Custom</strong> Services</a></li>
+          <li><a href="/design-services" class="dropdown-item"><strong>Design</strong> Services</a></li>
+        </ul>
+        <a class="btn btn-light" href="portfolio" role="button">Portfolio</a>
+        <br class="button-break">
+        <a class="btn btn-light" href="about" role="button">About Us</a>
+        <a class="btn btn-light" href="contact" role="button">Contact</a>
+      </div>
     </div>
 
-    <div class="home-footer" style="text-align: center;">
+    <div style="text-align: center; font-size: 0.75rem; color: white; margin-top: 40px;">
       Copyright &copy; 2020 All rights reserved with Libra Techno
     </div>
   </div>
